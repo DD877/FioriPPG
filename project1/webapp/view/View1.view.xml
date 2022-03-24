@@ -1,14 +1,11 @@
-<mvc:View
-    controllerName="project1.controller.View1"
-    xmlns:mvc="sap.ui.core.mvc"
-    displayBlock="true"
-    xmlns="sap.m"
->
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="project1.controller.View1" displayBlock="true">
     <Shell id="shell">
         <App id="app">
             <pages>
                 <Page id="page" title="welcome fiori cicd pipelines in sap BTP">
-                    <content />
+                    <content>
+                        <Link xmlns="sap.m" href="https://ui5.sap.com" text="Fiori Link" id="link0"/>
+                    </content>
                 </Page>
             </pages>
         </App>
