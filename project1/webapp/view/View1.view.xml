@@ -2,7 +2,7 @@
     <Shell id="shell">
         <App id="app">
             <pages>
-                <Page id="page" title="welcome fiori cicd pipelines BTP testing check today now solman1">
+                <Page id="page" title="welcome fiori cicd pipelines BTP testing check today now solman12">
                     <content>
                         <Link xmlns="sap.m" href="https://ui5.sap.com" text="Fiori Link" id="link0"/>
                     </content>
