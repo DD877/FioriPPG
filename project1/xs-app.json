@@ -1,13 +1,13 @@
 {
-  "welcomeFile": "/index.html",
+  "welcomeFile": "zfiori/project/webapp",
   "authenticationMethod": "route",
   "routes": [
     {
-      "source": "^/index.html/(.*)$",
+      "source": "^/zfiori/project/webapp/(.*)$",
       "target": "/resources/$1",
       "csrfProtection":false,
       "authenticationType": "xsuaa",
-      "localDir": "../webapp",
+      "localDir": "/zfiori/project/webapp",
       "destination": "ui5"
     },
     
