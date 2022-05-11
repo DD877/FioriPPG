@@ -3,17 +3,14 @@
   "authenticationMethod": "route",
   "routes": [
     {
-      "source": "^/resources/(.*)$",
+      "source": "^/index.html/(.*)$",
       "target": "/resources/$1",
-      "authenticationType": "none",
+      "csrfProtection":false,
+      "authenticationType": "xsuaa",
+      "localDir": "../webapp",
       "destination": "ui5"
     },
-    {
-      "source": "^/test-resources/(.*)$",
-      "target": "/test-resources/$1",
-      "authenticationType": "none",
-      "destination": "ui5"
-    },
+    
     {
       "source": "^(.*)$",
       "target": "$1",
@@ -22,3 +19,4 @@
     }
   ]
 }
+
